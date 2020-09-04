@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?><configs>
+
+    <!--====================User Configuration====================-->
+    <config key="APP.NAME" value="GoFun出行"/>
+    <!--<config key="DEVICE.SIZE" value="810,1440"/>-->
+    <config key="DEVICE.SIZE" value="1080,1920"/>
+    <config key="ACCOUNT.NUM" value="19900000001"/>
+    <config key="ACCOUNT.PASSWD" value="123456"/>
+    <config key="APP.PACKAGE.NAME" value="com.gvsoft.gofun"/>
+    <!--login-->
+    <config key="USER.ACCOUNT" value="com.gvsoft.gofun:id/tv_name"/>
+    <config key="USER.UNLOGIN" value="com.gvsoft.gofun:id/tv_name"/>
+    <config key="PHONE.NUM" value="com.gvsoft.gofun:id/et_phone"/>
+    <config key="AGREE.RADIO" value="com.gvsoft.gofun:id/cb_read"/>
+    <config key="LOGIN.NEXT" value="com.gvsoft.gofun:id/tv_next_first"/>
+    <config key="LOGIN.CAPTCHA" value="com.gvsoft.gofun:id/et_sms_code"/>
+    <config key="HOME.MOVE.TIPS" value="com.gvsoft.gofun:id/tv_GuideIKnow"/>
+    <config key="BACK.ARROW" value="com.gvsoft.gofun:id/iv_back"/>
+    <!--dialog-->
+    <config key="DIALOG.POSITIVE.ID" value="com.gvsoft.gofun:id/tv_confirm"/>
+    <config key="DIALOG.DISMISS" value="com.gvsoft.gofun:id/tv_dismiss"/>
+    <config key="DIALOG.CANCEL" value="com.gvsoft.gofun:id/tv_cancel"/>
+    <!--title id-->
+    <config key="NATIVE.TITLE" value="com.gvsoft.gofun:id/tv_Title"/>
+    <config key="NATIVE.TITLE.TRIP" value="com.gvsoft.gofun:id/tv_title"/>
+    <!--homepage-->
+    <config key="ALERT.AD.CLOSE.ID" value="com.gvsoft.gofun:id/iv_close"/>
+    <config key="HOME.GO" value="com.gvsoft.gofun:id/rl_go"/>
+    <config key="HOME.LOCATION" value="com.gvsoft.gofun:id/iv_location_icon"/>
+    <config key="RETURN.SAME.TAKING" value="com.gvsoft.gofun:id/tv_same_as_taking"/>
+    <config key="HOME.CARD" value="com.gvsoft.gofun:id/car_bg"/>
+    <config key="HOME.CARD.TWO" value="com.gvsoft.gofun:id/bottom_recyclerView_two"/>
+    <config key="CARD.LIST.ITEM" value="com.gvsoft.gofun:id/select_car_item_layout"/>
+    <config key="HOME.MENU" value="com.gvsoft.gofun:id/iv_menu"/>
+    <config key="HOME.SERVICE" value="com.gvsoft.gofun:id/iv_service"/>
+    <config key="HOME.USER.REPORT" value="com.gvsoft.gofun:id/ll_UserReort"/>
+    <config key="HOME.REPORT1" value="com.gvsoft.gofun:id/img_problemReportOne"/>
+    <config key="HOME.REPORT2" value="com.gvsoft.gofun:id/img_problemReward"/>
+    <config key="LOCAL.CITY" value="北京"/>
+    <config key="HOME.POWER" value="com.gvsoft.gofun:id/blockchain_iv"/>
+    <config key="SETTING.MENU" value="com.gvsoft.gofun:id/iv_setting_click"/>
+    <config key="BUILD.POINT.MENU" value="com.gvsoft.gofun:id/lin_recommendBuildPoint"/>
+    <config key="SHARE.BUTTON.BUILD" value="com.gvsoft.gofun:id/tv_shareGetHotCount"/>
+    <config key="ADD.BUTTON.BUILD" value="com.gvsoft.gofun:id/tv_addNewParking"/>
+    <config key="MEDAL.MENU" value="com.gvsoft.gofun:id/iv_medal_icon"/>
+    <config key="MY.MEDAL" value="com.gvsoft.gofun:id/tv_title"/>
+    <config key="WMF.MENU" value="com.gvsoft.gofun:id/lin_wmf_click"/>
+    <config key="WALLET.TITLE" value="钱包"/>
+	<config key="WALLET.ENCOURAGEMENT.TITLE" value="com.gvsoft.gofun:id/tvTitle"/>
+    <config key="COAST.DETAILS" value="com.gvsoft.gofun:id/rl_coast_detail"/>
+	<config key="HOME.IV.GUESS" value="com.gvsoft.gofun:id/iv_guess"/>
+	<!--图片识别-->
+    <config key="WALLET.PAYWIOPASSWORD.TITLE" value="title_pay_without_passwd"/>
+    <config key="HOME.YUYUE.PICNAME" value="yuyue"/>
+	<config key="HOME.CITY.PICNAME" value="assert01"/>
+    <!--search-->
+    <config key="HOME.SEARCH" value="com.gvsoft.gofun:id/iv_SearchAddr"/>
+    <config key="SEARCH.ADDRESS.EDIT" value="com.gvsoft.gofun:id/et_search"/>
+    <config key="SEARCH.CONTENT" value="sanlitun"/>
+    <config key="SEARCH.RESULT.LIST" value="com.gvsoft.gofun:id/list"/>
+    <config key="SEARCH.DESTINATION.CANCEL" value="com.gvsoft.gofun:id/tv_cancel"/>
+    <!--car filter-->
+    <config key="HOME.FILTER" value="com.gvsoft.gofun:id/main_filter_iv"/>
+    <config key="FILTER.CAR.CONFIRM" value="com.gvsoft.gofun:id/tv_confirm"/>
+    <config key="HOME.FILTER.CONTENT" value="com.gvsoft.gofun:id/rl_bottom_layout"/>
+    <config key="SEAT.LIST" value="2座,4座/5座,6座以上"/>
+    <config key="POWER.TYPE" value="新能源车,燃油车"/>
+    <config key="BRAND.LIST" value="雪佛兰乐风,科沃兹,江淮,标致2008,奇瑞艾瑞泽5E,奇瑞小蚂蚁,奔驰Smart,奇瑞EQ3"/>
+    <config key="FILTER.RESET" value="com.gvsoft.gofun:id/tv_cancel"/>
+    <config key="MILE.SCROLL" value="com.gvsoft.gofun:id/mile_slide_seek_bar"/>
+	<!--has car notification-->
+	<config key="CAR.REMINDER" value="com.gvsoft.gofun:id/iv_car_reminder"/>
+	<config key="CAR.REMINDER.REPEATDATE" value="com.gvsoft.gofun:id/tv_RepeatDate"/>
+	<config key="CAR.REMINDER.STARTTIME" value="com.gvsoft.gofun:id/tv_StartTime"/>
+	<config key="FIND.CAR.BYTYPE" value="com.gvsoft.gofun:id/tv_UpdateFindCarByType"/>
+    <!--parking-->
+    <config key="USEING.CAR.TAB" value="com.gvsoft.gofun:id/liji_tab"/>
+    <config key="HOME.PARKING.TYPE" value="com.gvsoft.gofun:id/tv_parkingRoadType"/>
+    <!--card detail-->
+    <config key="RESERVE.HOME" value="com.gvsoft.gofun:id/reserve_home_layout"/>
+    <config key="PARKING.ADDRESS" value="com.gvsoft.gofun:id/tv_return_parking_address"/>
+    <config key="RESERVE.COPY.ADDRESS" value="com.gvsoft.gofun:id/tv_copy_text"/>
+    <config key="RESERVE.COMMIT1" value="com.gvsoft.gofun:id/tv_ConfirmPlaceOrderTravelCard"/>
+	<config key="RESERVE.COMMIT" value="com.gvsoft.gofun:id/tv_ConfirmPlaceOrder"/>
+    <config key="ADVANCED.INSURANCE" value="com.gvsoft.gofun:id/rela_vehicle_damage2"/>
+	<config key="RESERVE.SHUOMING" value="com.gvsoft.gofun:id/shuoming_img"/>	
+    <!--picking  up-->
+    <config key="DIALOG.CLOSEDOOR.ID" value="com.gvsoft.gofun:id/tv_commit_btn"/>
+    <config key="PICKING.USE.CAR" value="com.gvsoft.gofun:id/tv_use_car"/>
+    <config key="PICKING.APPRAISE" value="com.gvsoft.gofun:id/skip"/>
+    <config key="PICKING.CANCEL.ORDER" value="com.gvsoft.gofun:id/tv_cancel_or_settlement"/>
+    <config key="PICKING.VOICE.FIND" value="com.gvsoft.gofun:id/lottie_find_car"/>
+    <config key="PICKING.PARKING.TYPE" value="com.gvsoft.gofun:id/parking_type"/>
+    <config key="PICKING.PARKING.INFO" value="com.gvsoft.gofun:id/infowindow_layout"/>
+    <config key="PICKING.PARKING.ADDRESS" value="com.gvsoft.gofun:id/tv_detailed_address"/>
+    <config key="PICKING.PARKING.DISTANCE" value="com.gvsoft.gofun:id/tv_distance"/>
+    <config key="PICKING.BUBBLE" value="com.gvsoft.gofun:id/infowindow_layout"/>
+    <config key="PICKING.BUBBLE.FLOOR" value="com.gvsoft.gofun:id/car_floor_tv"/>
+    <config key="PICKING.BUBBLE.AREA" value="com.gvsoft.gofun:id/car_area_tv"/>
+    <config key="PICKING.BUBBLE.NUM" value="com.gvsoft.gofun:id/car_num_tv"/>
+    <config key="PICKING.FACE.RECOGNITION" value="com.gvsoft.gofun:id/lv_face_icon"/>
+    <!--power not enough-->
+    <config key="POWER.TIP" value="com.gvsoft.gofun:id/ll_tips"/>
+    <!--going-->
+    <config key="GOING.CAR.HEALTH" value="com.gvsoft.gofun:id/iv_hai_ke_yi_click"/>
+    <config key="GOING.HEALTH.CLOSE.BUTTON" value="com.gvsoft.gofun:id/tv_time_close"/>
+    <config key="GOING.NAV" value="com.gvsoft.gofun:id/tv_location_click"/>
+    <config key="GOING.OPEN.DOOR" value="com.gvsoft.gofun:id/lottie_open_door"/>
+    <config key="GOING.CLOSE.DOOR" value="com.gvsoft.gofun:id/lottie_close_door"/>
+    <config key="GOING.VOICE.FIND" value="com.gvsoft.gofun:id/lottie_find_car"/>
+    <config key="BAIDU.MAP.NAV" value="com.baidu.BaiduMap:id/route_nav_btn_text"/>
+    <config key="GOING.RETURN.CAR" value="com.gvsoft.gofun:id/tv_return_car"/>
+    <config key="SMELL.NOT.GOOD" value="com.gvsoft.gofun:id/tv_not_good"/>
+    <config key="CLOSE.INTERFACE" value="com.gvsoft.gofun:id/tv_tip_1"/>
+
+    <config key="GOING.GUESS.PARKING" value="com.gvsoft.gofun:id/tv_guessYouLike"/>
+    <config key="GOING.PARKING.DISTANCE" value="com.gvsoft.gofun:id/tv_distance"/>
+    <config key="GOING.PARKING.TYPE" value="com.gvsoft.gofun:id/tv_parkingRoadType"/>
+    <config key="GOING.PARK.NAME" value="com.gvsoft.gofun:id/tv_parking_name"/>
+    <config key="GOING.PARK.INFO.AREA" value="com.gvsoft.gofun:id/tv_parkingInfoAreas"/>
+    <config key="GOING.PARKING.INFO" value="com.gvsoft.gofun:id/tv_parkingInfo"/>
+    <config key="GOING.AUTO.FEE" value="com.gvsoft.gofun:id/iv_price_info"/>
+    <config key="GOING.DAILY.FEE" value="com.gvsoft.gofun:id/lin_daily_price_info"/>
+    <config key="GOING.FEE.ESTIMATE" value="com.gvsoft.gofun:id/cardView"/>
+    <config key="GOING.FEE.ADVANCED.INSURANCE" value="com.gvsoft.gofun:id/tv_free_service1"/>
+    <!--going set destination-->
+    <config key="SET.DESTINATION" value="com.gvsoft.gofun:id/tv_SetDestination"/>
+    <config key="CONFIRM.DESTINATION.PARKING" value="com.gvsoft.gofun:id/urp_tv_sure"/>
+    <config key="GOING.CHANGE.CAR" value="com.gvsoft.gofun:id/img_changeCar"/>
+    <!--return car-->
+    <config key="TITLE.RETURN.CAR" value="com.gvsoft.gofun:id/tv_backTitle"/>
+    <config key="PAY.CAR.CONFIRM" value="com.gvsoft.gofun:id/tv_pay_name"/>
+    <config key="CHOOSE.COUPONS.FOR.SETTLE" value="com.gvsoft.gofun:id/tv_confirm"/>
+    <config key="SELECT.COUPONS" value="com.gvsoft.gofun:id/imgSelect"/>
+    <config key="SETTLEMENT.INSURANCE" value="com.gvsoft.gofun:id/os_recylerView_Excluding_deductible"/>
+    <config key="SETTLEMENT.COST.KEY" value="com.gvsoft.gofun:id/os_tvCostKey"/>
+    <config key="SETTLEMENT.COST.KEY.DATA" value="com.gvsoft.gofun:id/linearLayout_Data"/>
+    <!--select parking floor & area-->
+    <config key="FLOORS.PARENT" value="com.gvsoft.gofun:id/magic_indicator_floor"/>
+    <config key="FLOOR.AREA.CONTAINER" value="com.gvsoft.gofun:id/title_container"/>
+    <config key="AREAS.PARENT" value="com.gvsoft.gofun:id/magic_indicator_area"/>
+    <config key="PARKING.POS.NUM" value="com.gvsoft.gofun:id/parking_no_et"/>
+    <config key="PARKING.POS.NUM.TEXT" value="123"/>
+    <!--pay success-->
+    <config key="PAY.SUCCESS" value="com.gvsoft.gofun:id/tv_PaySuccess"/>
+    <config key="EVALUATION.COMMON" value="com.gvsoft.gofun:id/img_Commonly_head"/>
+    <config key="EVALUATION.COMMIT" value="com.gvsoft.gofun:id/tv_EvaluateStatus"/>
+    <config key="TRAVEL.END.TO.HOMEPAGE" value="com.gvsoft.gofun:id/tv_back_home"/>
+    <config key="REMIND.CLOSE.DOOR" value="com.gvsoft.gofun:id/tv_close_door"/>
+    <config key="EVALUATE.ORDER" value="com.gvsoft.gofun:id/ue_tv_title"/>
+    <config key="EVALUATE.CLOSE.BUTTON" value="com.gvsoft.gofun:id/ue_tv_submit"/>
+    <!--user center-->
+    <config key="USER.FUNCTIONS" value="我的钱包,我的行程,帮助中心,我的客服,邀请有礼,交通违法,活动中心"/>
+    <config key="ADD.CREDIT" value="com.gvsoft.gofun:id/rl_BindCreditCard"/>
+    <!--trip-->
+    <config key="TRIP.LIST" value="com.gvsoft.gofun:id/complete_recyclerView"/>
+    <!--trip detail-auto service-->
+    <config key="FREE.PAY" value="com.gvsoft.gofun:id/tv_fee_payment"/>
+    <config key="ILLEGAL.TRAFFIC" value="com.gvsoft.gofun:id/tv_illegal_traffic"/>
+    <config key="CANCEL" value="com.gvsoft.gofun:id/tv_cancel"/>
+    <!--message list-->
+    <config key="MESSAGE.MENU" value="com.gvsoft.gofun:id/rl_message"/>
+    <config key="MESSAGE.TAB" value="com.gvsoft.gofun:id/mc_tv_tab2"/>
+    <config key="MESSAGE.LIST" value="com.gvsoft.gofun:id/rv_message"/>
+    <!--city list-->
+    <config key="HOME.CITY" value="com.gvsoft.gofun:id/tv_city"/>
+    <config key="CITY.LIST" value="com.gvsoft.gofun:id/list"/>
+    <config key="CITY.ID" value="com.gvsoft.gofun:id/city_name"/>
+    <!--encourage-->
+    <config key="ENCOURAGE.HOMEPAGE.BACK" value="com.gvsoft.gofun:id/img_back"/>
+    <!--coupon-->
+    <config key="COUPON.BACK" value="com.gvsoft.gofun:id/back"/>
+    <!--service problem-->
+    <config key="SERVICE.PROBLEM" value="驾驶指南,平台缴费"/>
+    <config key="SERVICE.COMMON.PROBLEM" value="123"/>
+    <!--coupon task-->
+    <config key="COUPON.TASK.LIST" value="低价好券,特定路线,优惠券券包,春节活动"/>
+    <!--客货两用-->
+    <config key="TRUCKS.GO" value="com.gvsoft.gofun:id/rl_goTrucks"/>
+    <!--预约用车-->
+    <config key="YUYUE.TAB" value="com.gvsoft.gofun:id/yuyue_tab"/>
+    <config key="SELECT.TIME.BUTTON" value="com.gvsoft.gofun:id/tv_PickDate"/>
+    <config key="SELECT.TIME.SURE" value="com.gvsoft.gofun:id/btnSubmit"/>
+    <config key="CAR.INFO.BODY" value="com.gvsoft.gofun:id/ll_CarInfoBody"/>
+    <config key="YUYUE.CACEL" value="com.gvsoft.gofun:id/tv_OrderCancel"/>
+    <config key="YUYUE.CACEL.DAILY" value="com.gvsoft.gofun:id/iv_menu"/>
+
+    <!--导航功能-->
+    <config key="NAVIGATION.BUTTON" value="com.gvsoft.gofun:id/rl_navigation"/>
+    <config key="NAVIGATION.VIEW" value="com.gvsoft.gofun:id/mapView"/>
+    <config key="NAVIGATION.LOGOUT" value="com.gvsoft.gofun:id/lin_exit_click"/>
+    <config key="NAVIGATION.LOGOUT.SURE" value="com.gvsoft.gofun:id/tv_exit_navi_click"/>
+    <config key="READ.AGREE" value="com.gvsoft.gofun:id/cs_tv_confirm"/>
+    <config key="TIME.OPTION" value="com.gvsoft.gofun:id/tv_PickDate"/>
+    <config key="RETURN.SAME.TAKING.TWO" value="com.gvsoft.gofun:id/tv_same_as_taking_two"/>
+    <config key="SWITCH.BUTTON" value="com.gvsoft.gofun:id/switch_button"/>
+    <config key="CANCEL.DAILY.ORDER" value="com.gvsoft.gofun:id/iv_menu"/>
+    <config key="CANCEL.DAILY.ORDER.BUTTON" value="com.gvsoft.gofun:id/tv_cancel"/>
+    <config key="ACCIDENT.ICON" value="com.gvsoft.gofun:id/float_id"/>
+    <config key="CLEAN.ICON" value="com.gvsoft.gofun:id/lin_clean"/>
+    <!--525添加-->
+    <config key="COMMIT.BUTTON" value="com.gvsoft.gofun:id/tv_commitBtn"/>
+    <config key="REASON.ARROW" value="com.gvsoft.gofun:id/img_jiantou"/>
+    <config key="SPECIFIC.REASON" value="com.gvsoft.gofun:id/img_selectBtn"/>
+    <config key="DIALOG.CONTENT" value="com.gvsoft.gofun:id/tv_dialog_content"/>
+    <config key="I.KNOW.BUTTON" value="com.gvsoft.gofun:id/confirm_ll"/>
+    <config key="ADD.WAY.POINT" value="com.gvsoft.gofun:id/iv_add_way_point"/>
+    <config key="WAY.POINT.NAME" value="com.gvsoft.gofun:id/tv_way_point_name"/>
+    <config key="WAY.NAME.RESULT" value="com.gvsoft.gofun:id/srpi_tv_name"/>
+    <!--527-->
+
+    <config key="WAY.NAME.RESULT" value="com.gvsoft.gofun:id/srpi_tv_name"/>
+    <!--530-->
+    <config key="ISSUE.REPORT" value="com.gvsoft.gofun:id/lin_edit_click"/>
+    <config key="TRIP.CAR.IMG" value="com.gvsoft.gofun:id/iv_car_img"/>
+    <config key="WAY.NAME.RESULT" value="com.gvsoft.gofun:id/srpi_tv_name"/>
+    <config key="WAY.NAME.RESULT" value="com.gvsoft.gofun:id/srpi_tv_name"/>
+    <!--532-->
+    <config key="WHOLERENT.CAR.PIC" value="com.gvsoft.gofun:id/img_Car"/>
+	<config key="GOING.SOFAR.CLOSE" value="com.gvsoft.gofun:id/car_sofar_close"/>
+	
+	<config key="FREE.RETURN" value="com.gvsoft.gofun:id/tv_free_time"/>
+	<config key="WHOLERENT.AGREE" value="com.gvsoft.gofun:id/imgArgee"/>
+	<config key="TEHUI.ADDRESS" value="com.gvsoft.gofun:id/ll_take_address"/>
+
+    <!--日租二次取消弹框-取消订单config key="CACEL.DAILY" value="com.gvsoft.gofun:id/tv_cancel"/-->
+</configs>

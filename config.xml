@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><configs>
+  <!--====================User Configuration====================-->
+  <config key="LOCALHOST" value="172.27.2.218"/>
+  <!--Device 172.26.3.237ID-->
+  <config key="DEVICES.IP" value=""/>
+  <config key="DEVICES.NO" value="1fa1cc07"/>
+  <config key="AT.Device.ID" value=""/>
+  <config key="AT.Device.VERSION" value="6.0.1"/>
+  <config key="AT.APPIUM.PLATFORM.NAME" value="Android"/>
+  <config key="AT.APPIUM.UIAUTOMATIONNAME" value="uiautomator2"/>
+  <config key="AT.APPIUM.APP.PACKAGE" value="com.gvsoft.gofun"/>
+  <config key="AT.APPIUM.APP.ACTIVITY" value="com.gvsoft.gofun.module.splash.activity.SplashActivity"/>
+  <!--Path Separator-->
+  <config key="AT.PATH.SEPARATOR" value="@$@"/>
+  <!--Screenshot Path-->
+  <config key="AT.PATH.SCREEN.CAPTURE" value="Res@$@Stability"/>
+  <!--Test Case Path-->
+  <config key="AT.PATH.TEST.CASE" value="TestCase@$@Stability"/>
+  <!--Test Result Path-->
+  <config key="AT.PATH.TEST.RESULT" value="TestResult@$@Stability"/>
+  <!--Test OCR Path-->
+  <config key="AT.PATH.TEST.OCR" value="Lib@$@OCR"/>
+  <!--Email receiver address-->
+  <config key="AT.EMAIL.OPEN" value="0"/> <!--1 send eamil 0 not send email-->
+  <config key="AT.EMAIL.REPORTER.ADDRESS" value="guoxiaoqian@shouqiev.com"/>
+  <config key="AT.EMAIL.REPORTER.PASSWD" value="Fxmtian01"/>
+  <config key="AT.EMAIL.SERVER.ADDRESS" value="smtp.exmail.qq.com"/>
+  <config key="AT.EMAIL.SERVER.PORT" value="25"/>
+  <!--<config key="AT.EMAIL.RECEIVER.ADDRESS" value="niusufen@shouqiev.com,luna@shouqiev.com,mengfengxiao@shouqiev.com,guoxiaoqian@shouqiev.com,liusong@shouqiev.com,zhouxin@shouqiev.com,chenyun@shouqiev.com,wangying@shouqiev.com,chenxiang@shouqiev.com"/>-->
+  <config key="AT.EMAIL.RECEIVER.ADDRESS" value="liusong@shouqiev.com"/>
+   <!--Test type:  performance/smoke/mtbf-->
+  <config key="AT.AUTO.TESTCASE.TYPE" value="smoke"/>
+  <!--====================Auto Configuration====================-->
+  <!--Check(true) or Record(false)-->
+  <config key="AT.EXEC" value="false"/>
+  <config key="AT.SEESION" value="session1"/>
+  <config key="loop" value="1"/>
+  <config key="cycle" value="6"/>
+  <config key="CASE_PASS_FAIL" value="true"/>
+  <config key="devices_ip" value=""/>
+</configs>
