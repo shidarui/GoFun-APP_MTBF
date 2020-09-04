@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <!--car_damage_commit-->
+    <pictureName id="" key="shot" value="shot.png" threshold="0.9"/>
+
+    <!--test_MTBF_home03_Num-->
+    <pictureName id="" key="p_num_0" value="p_num_0.png" threshold="0.9"/>
+    <pictureName id="" key="p_num_1" value="p_num_1.png" threshold="0.9"/>
+    <pictureName id="" key="p_num_2" value="p_num_2.png" threshold="0.9"/>
+    <pictureName id="" key="p_num_3" value="p_num_3.png" threshold="0.9"/>
+    <pictureName id="" key="p_num_4" value="p_num_4.png" threshold="0.9"/>
+    <pictureName id="" key="p_num_5add" value="p_num_5add.png" threshold="0.9"/>
+    <!--test_MTBF_home04_Zoom_in-->
+    <pictureName id="" key="assert01" value="assert01.png" threshold="0.9"/>
+    <!--test_MTBF_PersonalCenter01_wallet-->
+    <pictureName id="" key="title_pay_without_passwd" value="title_pay_without_passwd.png" threshold="0.9"/>
+    <!--test_MTBF_main03_normal_user_car-->
+    <pictureName id="" key="homepage_parking_bubble" value="homepage_parking_bubble.png" threshold="0.5"/>
+    <!--test_gofun_MTBF_PersonalCenter08_setting-->
+    <pictureName id="" key="appstore_gofun" value="appstore_gofun.png" threshold="0.9"/>
+    <pictureName id="" key="appstore_back" value="appstore_back.png" threshold="0.9"/>
+    <!--test_gofun_MTBF_coupon01_seckill-->
+    <pictureName id="" key="1_gotokill_button" value="1_gotokill_button.png" threshold="0.8"/>
+    <pictureName id="" key="2_manykill_button" value="2_manykill_button.png" threshold="0.8"/>
+    <pictureName id="" key="maa_icon" value="maa_icon.png" threshold="0.8"/>
+    <pictureName id="" key="yuyue" value="yuyue.png" threshold="0.8"/>
+
+</elements>
